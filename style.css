@@ -1,0 +1,94 @@
+body {
+    background-color: #DCE4C9;
+}
+
+header {
+    width: 90%;
+    border: 1px solid #FFDD95;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 40px 0 40px 0;
+    text-align: center;
+
+}
+h1 {
+    color: #ff6500;
+}
+
+p {
+    font-style: italic;
+}
+img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #FF6500;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 8px #ff6500;
+}
+    img:hover {
+        transform: scale(1.2);
+        transition: all .3s ease-in-out;
+    }
+    button {
+        width: 40%;
+        margin: 0 auto;
+        padding: 8px 25px;
+        color: #0B192C;
+        background-color: #F5F5DC;
+        border: 1px solid #FF6500;
+    }
+    button:hover {
+        background-color: #D0E8C5;
+        transform: scale(.9);
+        transform: all .3s ease-in-out;
+    }
+
+        .about {
+            width: 90%;
+            margin: 40px auto;
+            display: flex;
+            padding: 30px;
+        }
+        .about p {
+            padding-left: 40px;
+            margin: auto;
+        }
+        .about img {
+            width: 40%;
+        }
+
+#project {
+    width: 90%;
+    border: 1px solid #FF6500;
+    margin: 30px auto;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.tile {
+    color: #FF6500;
+}
+
+.image-project {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.image-project img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+footer {
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: orange;
+    color: #FFFFFF;
+}
